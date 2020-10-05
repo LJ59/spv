@@ -4,26 +4,39 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-}
-
-
-/*Nav*/
-
-.navbar-brand {
-    font-size: 2rem;
-}
-
-#navbakCollapse a {
-    font-size: 1.9rem;
+    font-family: "Roboto", sans-serif;
 }
 
 
 /* header */
 
 header {
-    background: #cd1719;
+    background-image: url(img/CASQUE_POMPIER_LAMPLA.png);
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
+    border-bottom-style: solid;
+    border-bottom-color: #cd1719;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.preTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.preTxt-item {
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    font-weight: bolder;
+    background-color: #139FC6;
 }
 
 .text-intro {
@@ -31,13 +44,21 @@ header {
     padding-bottom: 9rem;
 }
 
-.preTxt {
+H1 {
     font-size: 2.5rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    /* font-weight: 500;*/
 }
 
-H1 {
-    font-size: 4rem;
+.btn-custom {
+    background: #CD1719;
     color: #fff;
-    font-family: sans-serif;
-    font-weight: 500;
+    text-decoration: underline;
+}
+
+.btn-custom {
+    background: #CD1719;
+    color: #fff;
+    text-decoration: underline;
 }
