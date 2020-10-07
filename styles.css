@@ -15,7 +15,12 @@ header {
     background-size: cover;
     height: 100vh;
     border-bottom-style: solid;
-    border-bottom-color: #cd1719;
+    border-bottom-color: #cc0000;
+}
+
+.logo {
+    /*format à définir pour SVG*/
+    margin: 1rem;
 }
 
 .intro {
@@ -27,14 +32,11 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    font-size: 4rem;
     color: #ffffff;
+    margin-top: 5rem;
 }
 
 .preTxt-item {
-    margin-top: 5rem;
-    margin-right: 2.2rem;
-    padding: 1.2rem;
     background-color: #139FC6;
 }
 
@@ -46,7 +48,13 @@ header {
 H1 {
     font-size: 2.5rem;
     color: #ffffff;
-    font-family: sans-serif;
+    /* font-weight: 500;*/
+}
+
+H2 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    background-color: #139fc6;
     /* font-weight: 500;*/
 }
 
@@ -56,8 +64,35 @@ H1 {
     text-decoration: underline;
 }
 
-.btn-custom {
-    background: #CD1719;
-    color: #fff;
-    text-decoration: underline;
+
+/*Début container*/
+
+.pasvous {
+    background-color: #175D79;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+.acces {
+    background-color: #06475E;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+.adresse {
+    margin: 0;
+}
+
+.social {
+    margin: 0;
+}
+
+.nous {
+    background-color: #17323F;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+footer {
+    background-color: #139FC6
 }
