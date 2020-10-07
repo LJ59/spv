@@ -1,0 +1,98 @@
+/*css suxx*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* header */
+
+header {
+    background-image: url(img/CASQUE_POMPIER_LAMPLA.png);
+    background-size: cover;
+    height: 100vh;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+.logo {
+    /*format à définir pour SVG*/
+    margin: 1rem;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.preTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 5rem;
+}
+
+.preTxt-item {
+    background-color: #139FC6;
+}
+
+.text-intro {
+    padding-top: 15rem;
+    padding-bottom: 9rem;
+}
+
+H1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    /* font-weight: 500;*/
+}
+
+H2 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    background-color: #139fc6;
+    /* font-weight: 500;*/
+}
+
+.btn-custom {
+    background: #CD1719;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/*Début container*/
+
+.pasvous {
+    background-color: #175D79;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+.acces {
+    background-color: #06475E;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+.adresse {
+    margin: 0;
+}
+
+.social {
+    margin: 0;
+}
+
+.nous {
+    background-color: #17323F;
+    border-bottom-style: solid;
+    border-bottom-color: #cc0000;
+}
+
+footer {
+    background-color: #139FC6
+}
