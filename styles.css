@@ -4,16 +4,14 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
 }
 
 
 /* header */
 
 header {
-    /* background-image: url(img/CASQUE_POMPIER_LAMPLA.jpg);
-    background-size: cover;
-    height: 100vh; */
     height: 100vh;
     min-height: 500px;
     background-image: url(img/CASQUE_POMPIER_LAMPLA.jpg);
@@ -66,13 +64,6 @@ H2 {
     /* font-weight: 500;*/
 }
 
-
-/* .btn-custom {
-    background: #CD1719;
-    color: #fff;
-    text-decoration: underline;
-} */
-
 .btn-custom {
     color: #FFFFFF;
     font-size: 20px;
@@ -85,6 +76,11 @@ H2 {
     background: #cc0000;
     color: #FFFFFF;
     text-decoration: underline;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 
