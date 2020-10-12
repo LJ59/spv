@@ -11,9 +11,15 @@ body {
 /* header */
 
 header {
+    /* background-image: url(img/CASQUE_POMPIER_LAMPLA.jpg);
+    background-size: cover;
+    height: 100vh; */
+    height: 100vh;
+    min-height: 500px;
     background-image: url(img/CASQUE_POMPIER_LAMPLA.jpg);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
     border-bottom-style: solid;
     border-width: thick;
     border-bottom-color: #cc0000;
@@ -30,11 +36,11 @@ header {
 }
 
 .preTxt {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; */
     color: #ffffff;
-    margin-top: 5rem;
+    /*margin-top: 5rem;*/
 }
 
 .preTxt-item {
@@ -60,9 +66,24 @@ H2 {
     /* font-weight: 500;*/
 }
 
-.btn-custom {
+
+/* .btn-custom {
     background: #CD1719;
     color: #fff;
+    text-decoration: underline;
+} */
+
+.btn-custom {
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #17323F;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background: #cc0000;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
@@ -91,6 +112,20 @@ H2 {
     margin: 0;
 }
 
+.btn-custom1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #175D79;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-custom1:hover {
+    background: #cc0000;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
 .nous {
     background-color: #17323F;
     border-bottom-style: solid;
@@ -99,7 +134,9 @@ H2 {
 }
 
 i.fab {
-    color: #cd1719;
+    /* color: #cd1719; */
+    color: #175D79;
+    background-color: #FFFFFF;
 }
 
 .social-icons {
@@ -116,7 +153,7 @@ footer {
 }
 
 .logofooter {
-    width: 30em;
+    /* width: 30em; */
     height: 20em;
     margin: 0 auto;
     padding: 1em;
