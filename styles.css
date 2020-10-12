@@ -136,13 +136,19 @@ H2 {
 i.fab {
     /* color: #cd1719; */
     color: #175D79;
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
 }
 
 .social-icons {
     display: flex;
     justify-content: space-around;
     padding-bottom: 4em;
+}
+
+.social-icons:hover {
+    background: #cc0000;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 
