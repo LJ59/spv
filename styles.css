@@ -129,16 +129,42 @@ H2 {
     border-bottom-color: #cc0000;
 }
 
+.liens_nous {
+    color: #ffffff;
+}
+
+.liens_nous:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 i.fab {
     /* color: #cd1719; */
     color: #175D79;
     /*background-color: #FFFFFF;*/
 }
 
+.fa {
+    padding: 1.25rem;
+    font-size: 3rem;
+    width: 5.32rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: #175D79;
+    color: #FFFFFF;
+}
+
+.fa:hover {
+    background: #cc0000;
+    color: #FFFFFF;
+    /*text-decoration: underline;*/
+}
+
 .social-icons {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 4em;
+    /*padding-bottom: 4em;*/
 }
 
 .social-icons:hover {
@@ -154,9 +180,18 @@ footer {
     background-color: #139FC6
 }
 
+.liens_footer {
+    color: #021720;
+}
+
+.liens_footer:hover {
+    color: #021720;
+    text-decoration: none;
+}
+
 .logofooter {
     /* width: 30em; */
-    height: 20em;
+    height: 20rem;
     margin: 0 auto;
     padding: 1em;
 }
