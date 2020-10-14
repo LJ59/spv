@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    /*font-family: "Roboto", sans-serif;*/
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
@@ -34,11 +33,7 @@ header {
 }
 
 .preTxt {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
     color: #ffffff;
-    /*margin-top: 5rem;*/
 }
 
 .preTxt-item {
@@ -53,15 +48,12 @@ header {
 H1 {
     font-size: 2.5rem;
     color: #ffffff;
-    /* font-weight: 500;*/
 }
 
 H2 {
     font-size: 3.5rem;
     color: #ffffff;
-    /*padding: 0.8rem;*/
     background-color: #139fc6;
-    /* font-weight: 500;*/
 }
 
 .btn-custom {
@@ -143,9 +135,7 @@ H2 {
 }
 
 i.fab {
-    /* color: #cd1719; */
     color: #175D79;
-    /*background-color: #FFFFFF;*/
 }
 
 .fa {
@@ -162,13 +152,11 @@ i.fab {
 .fa:hover {
     background: #cc0000;
     color: #FFFFFF;
-    /*text-decoration: underline;*/
 }
 
 .social-icons {
     display: flex;
     justify-content: space-around;
-    /*padding-bottom: 4em;*/
 }
 
 .social-icons:hover {
